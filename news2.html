@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <title>Kişisel Blog</title>
+</head>
+<body>
+
+<header>
+    <div class="text-center p-4">
+        <h1 class="fs-2"><b>BALTINDAL</b>BLOG</h1>
+    </div>
+</header>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid col-12 col-lg-8">
+        <button class="navbar-toggler col-12" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="text-white fw-bold">MENÜ</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto text-center" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link text-white fw-bold" href="index.html">ANASAYFA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white fw-bold" href="about.html">HAKKIMDA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  text-white fw-bold" href="contact.html">İLETİŞİM</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav d-flex text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img style="max-width: 30px;"
+                                                      src="assets/images/social-media/facebook.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img style="max-width: 30px;"
+                                                      src="assets/images/social-media/instagram.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img style="max-width: 30px;"
+                                                      src="assets/images/social-media/twitter.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img style="max-width: 30px;"
+                                                      src="assets/images/social-media/github.png"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<article class="row col-12 col-lg-8 mx-auto">
+
+    <div class="col-12 col-md-8 pt-5">
+        <h1 class="fs-2">CSS Dosyalarınızdan Kullanılmayan Stilleri Sıkıştıran ve Çıkaran CSS Araçları</h1>
+        <div class="fw-bold text-secondary">2 HAFTA ÖNCE</div>
+        <img src="assets/images/news/css-clean.jpg" class="w-100 pt-3">
+        <p class="fs-5 mt-3">Web tasarımcısı olmayan kişiler CSS dosyalarını üç kolay yolla sıkıştırabilir:</p>
+        <br>
+        <p class="fs-5 mt-3">(1) Boşluklar, sekmeler vb. gibi boşlukları çıkarın (2) Kullanılmayan tüm CSS sınıflarını
+            ve kimliklerini
+            kaldırın (3) Stenografi modunu kullanın (#CCC yerine #CCCCCC kullanın, 1.0em'yi 1em ile değiştirin, vb.)</p>
+        <br>
+        <p class="fs-5 mt-3">Şimdi tüm bunlar çok küçük değişikliklerdir, ancak hızlı bir şekilde toplanır ve CSS
+            dosyanızı birkaç kilobayt daha hafif hale getirebilir. Bu, daha küçük dosyaların indirilmesi nispeten daha
+            az zaman aldığı için daha hızlı web sayfalarına dönüşür.</p>
+        <br>
+        <p class="fs-5 mt-3">Ve neyse ki, tüm bunları sizin için yapabilecek çevrimiçi olarak birçok CSS aracı var - CSS
+            dosyalarınızı analiz edecek, istenmeyen şeyleri kaldıracak ve böylece genel boyutu küçültecekler.</p>
+        <h3><a class="text-decoration-none text-warning" href="http://www.cleancss.com/">CSS'yi Temizle</a></h3>
+        <p class="fs-5 mt-3">Bu araç, CSS kodunu web sitenizden çeker ve yorumları kaldırarak, renk kodlarını
+            sıkıştırarak ve kısayol modu CSS'ye dönüştürerek optimize eder. Ayrıca, arka planda neyin değiştiğini tam
+            olarak bilmeniz için ayrıntılı bir günlük çıkarır.</p>
+        <p class="fs-5 mt-3">Araç, kodun insanlar için ne kadar okunabilir olmasını istediğinize bağlı olarak çeşitli
+            sıkıştırma seviyeleri sunar.</p>
+        <br>
+        <h3><a class="text-decoration-none text-warning" href="http://services.immike.net/css-checker/">CSS
+            Denetleyicisi</a></h3>
+        <p class="fs-5 mt-3">Bu, stil sayfasında bulunan ancak web sayfalarında kullanılmayan artık CSS stillerini
+            (Sınıflar, Kimlikler vb.) bulmanıza yardımcı olduğu için muhtemelen en kullanışlı CSS aracıdır.</p>
+            <br>
+        <p class="fs-5 mt-3">CSS dosyanızın URL'sini ve bu belirli stilleri kullanan web sayfalarının listesini yazarsınız. CSS
+            Denetleyicisi daha sonra güvenli bir şekilde atabileceğiniz veya başka bir CSS dosyasına taşıyabileceğiniz
+            kullanılmayan tüm stilleri hızlı bir şekilde çözecektir.</p>
+        <h3><a class="text-decoration-none text-warning"
+               href="http://www.cssdrive.com/index.php/main/csscompressoradvanced/">CSS Kompresörü</a></h3>
+        <p class="fs-5 mt-3">Bu, CSS'nin optimize edilmiş sürümünde yorumların ve yeni satırların işlenmesi üzerinde
+            daha fazla kontrole sahip olmanıza rağmen, CSS'yi Temizle'ye oldukça benzer.</p>
+        <br>
+        <p class="fs-5 mt-3">CSS'yi Temizle'den farklı olarak, CSS Kompresörü aracı CSS dosyalarınızı çekemez - CSS kodunu metin alanına
+            kopyalayıp yapıştırmanız gerekir.</p>
+    </div>
+
+    <div class="col-12 col-md-4 mt-5">
+        <div class="text-center bg-light mb-5">
+            <img src="assets/images/profile.jpg" class="w-100">
+            <h3 class="h5 pt-2 fw-bold">Berat Altındal</h3>
+            <p class="text-secondary">Teknoloji Bloggerı</p>
+            <p class="p-2">2021'dan bugüne kadar teknoloji ağırlıklı yazılar yazan ve Bilgisayar Programcılığı okuyan bir blogger.</p>
+            <p class="p-2">Detaylı bilgiye <a class="text-decoration-none text-warning fw-bold" href="about.html">Hakkımda</a>
+                sayfasından ulaşabilirsiniz.</p>
+        </div>
+        <div class="text-center bg-light mb-5">
+            <h3 class="p-3">Önerilen Yazılar</h3>
+            <ul class="list-group">
+                <li class="list-group-item rounded-0 border-light"><a class="text-decoration-none text-warning" href="news5.html">En İyi 3 Kod Editörü İncelemesi Ve Özellikleri</a></li>
+                <li class="list-group-item rounded-0 border-light"><a class="text-decoration-none text-warning" href="news6.html">HTML ve CSS kodu nasıl daha hızlı yazılır?</a></li>
+                <li class="list-group-item rounded-0 border-light"><a class="text-decoration-none text-warning" href="news2.html">CSS Dosyalarınızdan Kullanılmayan Stilleri Sıkıştıran ve Çıkaran CSS Araçları</a></li>
+                <li class="list-group-item rounded-0 border-light"><a class="text-decoration-none text-warning" href="news1.html">Canva'da Fotoğraf Çıkartmaları Nasıl Oluşturulur</a></li>
+                <li class="list-group-item rounded-0 border-light"><a class="text-decoration-none text-warning" href="news7.html">En İyi Video Oynatıcı Programları</a></li>
+                <li class="list-group-item rounded-0 border-light"><a class="text-decoration-none text-warning" href="news4.html">En İyi Taşınabilir SSD</a></li>
+            </ul>
+        </div>
+    </div>
+</article>
+
+<footer>
+    <div class="container-fluid col-12 col-lg-8">
+        <div class="row p-3 fs-5">
+            <div class="col-6 text-white">
+                2022 © Berat Altındal
+            </div>
+            <div class="col-6 text-white text-end">
+                Tüm Hakları Saklıdır.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</script>
+</body>
+</html>
