@@ -1,0 +1,16 @@
+header{
+    background-color: #ffc500;
+}
+
+nav{
+    background-color: #212121;
+}
+
+.nav-item:hover a{
+    color: #ffc500;
+}
+
+footer{
+    background-color: #212121;
+}
+
